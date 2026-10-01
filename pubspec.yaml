@@ -12,14 +12,23 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  google_maps_flutter: ^2.18.0
+  google_maps_flutter: ^2.18.1
+  # 🗺️ Ücretsiz ve Kredi Kartı İstemeyen OpenStreetMap Paketleri Eklendi
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  
   firebase_core: ^4.14.0
   image_picker: ^1.2.3
   cloud_firestore: ^6.9.0
-  firebase_auth: ^6.6.1
+  firebase_auth: ^6.7.0
   intl: ^0.20.3
   url_launcher: ^6.3.2
   local_auth: ^3.0.2
+  google_sign_in: ^6.2.2
+  sign_in_with_apple: ^6.1.3
+  # 🚀 Yerel açılış ekranını yönetmek için eklendi
+  flutter_native_splash: ^2.4.8
+  shared_preferences: ^2.5.5
 
 dev_dependencies:
   flutter_test:
@@ -32,11 +41,24 @@ dev_dependencies:
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/logo.png"
+  image_path: "assets/images/swap_logo.png" # 👈 Ana uygulama ikonu orijinal kalıyor
+  remove_alpha_ios: true
+  name: "Takas Platformu"
+
+# ⚡ ANDROID & IOS İLK AÇILIŞ (SPLASH) EKRANI YAPILANDIRMASI
+flutter_native_splash:
+  color: "#ffffff" 
+  image: "assets/images/swap_logo_splash.png" # 👈 AÇILIŞ EKRANI İÇİN YENİ DOSYAYI BURAYA YAZDIK
+  android: true
+  ios: true
+  fullscreen: true
+  android_12:
+    color: "#ffffff"
+    image: "assets/images/swap_logo_splash.png" # 👈 BURAYA DA YAZDIK
 
 flutter:
   uses-material-design: true
   
-  # 📸 İkon ve görsellerin okunması için assets yapısı kilitlendi
   assets:
-    - assets/
+    - assets/images/swap_logo.png
+    - assets/images/swap_logo_splash.png # 👈 Dosyanın uygulamada tanınması için buraya da ekledik

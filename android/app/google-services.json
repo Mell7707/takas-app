@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "472317249027",
+    "project_id": "takasapp-76eb7",
+    "storage_bucket": "takasapp-76eb7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472317249027:android:d0ed00f2c1a986c089b036",
+        "android_client_info": {
+          "package_name": "com.example.takas_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472317249027-ti8h4c7qfo88pd64f5agpksr06b12cnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.takas_app",
+            "certificate_hash": "8095a4beaa88ec7e0b8f5a2fba570a81aef080ae"
+          }
+        },
+        {
+          "client_id": "472317249027-n2kims91j1kfn7hm09ibp9mdlsj2lgso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_wUXt-tqSVEWq5o5baR7LUPfhtdNLPUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472317249027-n2kims91j1kfn7hm09ibp9mdlsj2lgso.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "472317249027-qvtmtk8d6cda1l9o0oh2g1uvqqbj0qc9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.takasApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
